@@ -1,0 +1,23 @@
+/*
+Theme Name: 	Betheme Child
+Theme URI: 		http://themes.muffingroup.com/betheme
+Author: 		Muffin group
+Author URI: 	http://muffingroup.com
+Description:	Child Theme for Betheme - Premium WordPress Theme
+Template:		betheme
+Version: 		1.6.1
+*/
+
+/* Theme customization starts here
+-------------------------------------------------------------- */
+
+
+/* Top Bar */
+
+#Action_bar .contact_details {
+	width: 100%;
+}
+
+#Action_bar .contact_details li:last-child {
+	float: right;
+}
