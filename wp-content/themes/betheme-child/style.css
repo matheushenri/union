@@ -29,6 +29,18 @@ Version: 		1.6.1
 	width: 90%;
 }
 
+#Action_bar .contact_details li {
+	padding: 10px 0;
+}
+
+#Action_bar .contact_details .phone i {
+	display: none;
+}
+
+#Action_bar .social {
+	padding: 10px 0;
+}
+
 #Action_bar .contact_details li:last-child {
 	float: right;
 }
@@ -37,4 +49,13 @@ Version: 		1.6.1
 
 #Top_bar {
 	background: rgba(0, 0, 0, 0.3);
+	top: 41px;
+}
+
+#Top_bar .menu .current_page_item a span {
+	font-weight: 800;
+}
+
+.is-sticky	{
+	background: rgba(0, 0, 0, 0.7) !important;
 }
