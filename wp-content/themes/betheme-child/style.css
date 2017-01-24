@@ -14,10 +14,27 @@ Version: 		1.6.1
 
 /* Top Bar */
 
+#Action_bar {
+	background: #fff;
+}
+
+#Action_bar .column {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
 #Action_bar .contact_details {
-	width: 100%;
+	width: 90%;
 }
 
 #Action_bar .contact_details li:last-child {
 	float: right;
+}
+
+/* Header */
+
+#Top_bar {
+	background: rgba(0, 0, 0, 0.3);
 }
