@@ -59,3 +59,29 @@ Version: 		1.6.1
 .is-sticky	{
 	background: rgba(0, 0, 0, 0.7) !important;
 }
+
+/* Categories Home */
+
+
+
+.products .product {
+	margin: 0 5px;
+	box-sizing: border-box;
+}
+
+.products .product img {
+	width: auto;
+	border: 3px solid #ccc;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+}
+
+.products .product h3 {
+	font-size: 20px !important;
+	font-weight: 600;
+	color: #666;
+}
+
+.products .product h3 mark {
+	display: none;
+}
