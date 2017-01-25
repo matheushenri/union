@@ -71,7 +71,7 @@ Version: 		1.6.1
 
 .products .product img {
 	width: auto;
-	border: 3px solid #ccc;
+	border: 3px solid #e3e3e3;
 	border-radius: 2px;
 	-webkit-border-radius: 2px;
 }
@@ -84,4 +84,60 @@ Version: 		1.6.1
 
 .products .product h3 mark {
 	display: none;
+}
+
+.outter-image {
+	margin-left: -100px;
+}
+
+.outter-image img.scale-with-grid, #Content img {
+	max-width: auto !important;
+}
+
+.outter-image .image_frame.stretch .image_wrapper img {
+	width: auto !important;
+}
+
+.outter-image img {
+	left: -200px;
+}
+
+/* Footer Widgets */
+
+#Footer {
+	font-size: 16px;
+	color: #585858 !important;
+}
+
+#Footer .widget_nav_menu ul {
+	color: #585858;
+}
+
+.widget_nav_menu ul {
+	background: transparent !important;
+	padding: 0px 0px 0px 15px;
+}
+
+.widget_nav_menu .menu {
+	list-style: none;
+	padding: 0px;
+}
+
+.widget_nav_menu .menu li {
+	font-weight: 600;
+	margin-bottom: 15px;
+}
+
+.widget_nav_menu ul li a {
+	padding: 0px;
+}
+
+.widget_nav_menu .menu li .sub-menu {
+	list-style: disc;
+	margin-top: 5px;
+}
+
+.widget_nav_menu .menu li .sub-menu li {
+	font-weight: 400;
+	line-height: 10px;
 }
