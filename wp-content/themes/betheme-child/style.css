@@ -208,6 +208,31 @@ a.button.download-button.button_size_1.button_js {
 	padding: 7px 0px 7px 0px !important;
 }
 
+.product_title {
+	color: #ff0000;
+}
+
+.widget:after {
+	border: 0px;
+}
+
+.widget h3 {
+	display: inline-block;
+	color: #585858;
+	font-size: 19px;
+    border-bottom: 4px solid #585858;
+    padding-bottom: 9px;	
+}
+
+#Subheader h1.title,
+#Subheader h2.title {
+	display: none;	
+}
+
+.aside_right .widget-area {
+	border: 0px;
+}
+
 /* Contact Form */
 
 .table-form {
