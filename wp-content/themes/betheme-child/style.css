@@ -65,8 +65,48 @@ Version: 		1.6.1
 	background: rgba(0, 0, 0, 0.7) !important;
 }
 
+/* Buttons */
 
-/* Slideshow */
+.view-all {
+    margin: 0px !important;
+    padding: 12px 0px 10px !important;
+}
+
+.button-stroke a:hover.button.button_stroke_custom:not(.action_button) {
+	background-color: #ff0000 !important;
+}
+
+/* Newsletter */
+
+.line-input {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
+
+.line-input span {
+	margin-right: 10px;
+	margin-bottom: 0px;
+}
+
+.line-input span input[name="your-email"] {
+	padding: 12px;
+	border-radius: 6px;
+	border: 0px;
+	font-size: 19px;
+}
+
+.line-input input[type="submit"] {
+	font-size: 16px;
+	font-weight: 500;
+	text-transform: uppercase;
+	text-align: center;
+	margin-right: 0px;
+	width: 130px;
+	border-radius: 6px;
+	background-color: #ff0000 !important;
+	color: #fff;
+}
 
 /* Categories Home */
 

@@ -20,7 +20,7 @@ define( 'STATIC_IN_CHILD', false );
 /* ---------------------------------------------------------------------------
  * Enqueue Style
  * --------------------------------------------------------------------------- */
-add_action( 'wp_enqueue_scripts', 'mfnch_enqueue_styles', 101 );
+add_action( 'wp_enqueue_scripts', 'mfnch_enqueue_styles', 20 );
 function mfnch_enqueue_styles() {
 	
 	// Enqueue the parent stylesheet
