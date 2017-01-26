@@ -57,13 +57,18 @@ Version: 		1.6.1
 	font-weight: 800;
 }
 
+#Top_bar .menu li .sub-menu li a {
+	font-size: 15px;
+}
+
 .is-sticky	{
 	background: rgba(0, 0, 0, 0.7) !important;
 }
 
+
+/* Slideshow */
+
 /* Categories Home */
-
-
 
 .products .product {
 	margin: 0 5px;
@@ -87,10 +92,6 @@ Version: 		1.6.1
 	display: none;
 }
 
-.outter-image {
-	margin-left: -100px;
-}
-
 .outter-image img.scale-with-grid, #Content img {
 	max-width: auto !important;
 }
@@ -108,6 +109,11 @@ Version: 		1.6.1
 #Footer {
 	font-size: 16px;
 	color: #585858 !important;
+}
+
+#Footer p {
+	font-weight: 500;
+	line-height: 20px;
 }
 
 #Footer .widget_nav_menu ul {
@@ -147,4 +153,50 @@ Version: 		1.6.1
 
 .shop-filters {
 	background-image: none;
+}
+
+/* Contact Form */
+
+.table-form {
+	display: table;
+	table-layout: auto;
+}
+
+.table-form td {
+	border: 0px;
+	vertical-align: top
+}
+
+.table-form td p {
+	margin: 0px;
+}
+
+.table-form label {
+    text-align: left;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.table-form label span input,
+.table-form label span textarea {
+	border-radius: 7px;
+	padding: 15px;
+	font-size: 16px;
+}
+
+.table-form label span textarea {
+	height: 226px;
+	margin-bottom: 20px !important;
+}
+
+.table-form input[type="submit"] {
+	color: #ffffff !important;
+	display: block;
+    background-color: #ff0000 !important;
+    border: 0;
+    padding: 15px 25px;
+	margin: 0;
+	float: right;
+    font-size: 18px;
+    border-radius: 7px;
 }
