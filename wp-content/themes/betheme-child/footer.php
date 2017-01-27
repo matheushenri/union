@@ -21,9 +21,7 @@ if( $back_to_top_class == 'hide' ){
 }
 
 ?>
-
-	<?php do_action( 'mfn_hook_content_after' ); ?>
-
+	
 		<?php if( is_tax( 'product_cat' ) || is_post_type_archive( 'product' ) )  : ?>
 
 			<div class="section mcb-section    bg-cover" style="margin-top:100px; padding-top:100px; padding-bottom:80px; background-color:" data-parallax="3d"><img class="mfn-parallax" src="<?php echo site_url(); ?>/wp-content/uploads/2016/08/bg-services.jpg" alt="" style="width: 1270px; height: 846.884px; transform: translate3d(0px, -59px, 0px);">
@@ -44,7 +42,7 @@ if( $back_to_top_class == 'hide' ){
 							<div class="column mcb-column one-third column_image ">
 								<div class="animate zoomIn" data-anim-type="zoomIn">
 									<div class="image_frame image_item no_link scale-with-grid aligncenter no_border">
-										<div class="image_wrapper"><img class="scale-with-grid" src="http://localhost/~matheushenrique/union/wp-content/uploads/2016/08/locacao-icon.png" alt="locacao-icon" width="128" height="121"></div>
+										<div class="image_wrapper"><img class="scale-with-grid" src="<?php echo site_url(); ?>/wp-content/uploads/2016/08/locacao-icon.png" alt="locacao-icon" width="128" height="121"></div>
 									</div>
 								</div>
 							</div>
@@ -60,7 +58,7 @@ if( $back_to_top_class == 'hide' ){
 							<div class="column mcb-column one-third column_image ">
 								<div class="animate zoomIn" data-anim-type="zoomIn">
 									<div class="image_frame image_item no_link scale-with-grid aligncenter no_border">
-										<div class="image_wrapper"><img class="scale-with-grid" src="http://localhost/~matheushenrique/union/wp-content/uploads/2016/08/manutencao-icon.png" alt="manutencao-icon" width="128" height="121"></div>
+										<div class="image_wrapper"><img class="scale-with-grid" src="<?php echo site_url(); ?>/wp-content/uploads/2016/08/manutencao-icon.png" alt="manutencao-icon" width="128" height="121"></div>
 									</div>
 								</div>
 							</div>
@@ -75,7 +73,7 @@ if( $back_to_top_class == 'hide' ){
 							<div class="column mcb-column one-third column_image ">
 								<div class="animate zoomIn" data-anim-type="zoomIn">
 									<div class="image_frame image_item no_link scale-with-grid aligncenter no_border">
-										<div class="image_wrapper"><img class="scale-with-grid" src="http://localhost/~matheushenrique/union/wp-content/uploads/2016/08/projetos-icon.png" alt="projetos-icon" width="128" height="121"></div>
+										<div class="image_wrapper"><img class="scale-with-grid" src="<?php echo site_url(); ?>/wp-content/uploads/2016/08/projetos-icon.png" alt="projetos-icon" width="128" height="121"></div>
 									</div>
 								</div>
 							</div>
@@ -114,7 +112,7 @@ if( $back_to_top_class == 'hide' ){
 			</div>
 
 			<?php endif; ?>
-
+			<?php do_action( 'mfn_hook_content_after' ); ?>
 				<!-- #Footer -->
 				<footer id="Footer" class="clearfix">
 
