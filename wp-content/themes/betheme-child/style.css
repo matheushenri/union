@@ -65,6 +65,42 @@ Version: 		1.6.1
 	background: rgba(0, 0, 0, 0.7) !important;
 }
 
+/* Search Section */
+
+.yith-ajaxsearchform-container form {
+	margin-top: -10px;
+}
+
+.yith-ajaxsearchform-container form div {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
+
+.widget_product_search form input[type="search"] {
+	width: 60%;
+	margin-bottom: 0px !important;
+	margin-right: 10px;
+	border-radius: 7px;
+	font-size: 16px;
+}
+
+.widget_product_search form input[type="submit"] {
+	display: block !important;
+	margin-bottom: 0px !important;
+	background-color: #ff0000 !important;
+	font-weight: 500;
+	font-size: 16px;
+}
+
+.autocomplete-suggestions {
+	border-radius: 7px;
+}
+
+.autocomplete-suggestion {
+	font-size: 16px;
+}
+
 /* Buttons */
 
 .view-all {
@@ -278,3 +314,11 @@ a.button.download-button.button_size_1.button_js {
     font-size: 18px;
     border-radius: 7px;
 }
+
+/* Shop Page */
+
+.shop-filters {
+	background-image: none !important;
+}
+
+.shop-filters
