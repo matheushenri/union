@@ -47,8 +47,8 @@ if( $back_to_top_class == 'hide' ){
 								</div>
 							</div>
 							<div class="column mcb-column two-third column_column  column-margin-">
-								<div class="column_attr clearfix" style=" padding:15px 5% 0;">
-									<h4 style="color: #fff !Important; margin-bottom: 10px; font-weight: 300;"><br> Locação</h4>
+								<div class="column_attr clearfix align_center">
+									<p style="color: #fff !Important; margin-bottom: 10px; font-weight: 400; font-size:25px"></br>Locação</p>
 								</div>
 							</div>
 						</div>
@@ -63,8 +63,8 @@ if( $back_to_top_class == 'hide' ){
 								</div>
 							</div>
 							<div class="column mcb-column two-third column_column  column-margin-">
-								<div class="column_attr clearfix" style=" padding:15px 5% 0;">
-									<h4 style="color: #fff !important; margin-bottom: 10px; font-weight: 300;"><br> Manutenção</h4></div>
+								<div class="column_attr clearfix align_center">
+									<p style="color: #fff !Important; margin-bottom: 10px; font-weight: 400; font-size:25px"></br>Manutenção</p>
 							</div>
 						</div>
 					</div>
@@ -78,8 +78,8 @@ if( $back_to_top_class == 'hide' ){
 								</div>
 							</div>
 							<div class="column mcb-column two-third column_column  column-margin-">
-								<div class="column_attr clearfix" style=" padding:15px 5% 0;">
-									<h4 style="color: #fff !important; margin-bottom: 10px; font-weight: 300;"><br> Projetos</h4>
+								<div class="column_attr clearfix align_center">
+									<p style="color: #fff !Important; margin-bottom: 10px; font-weight: 400; font-size:25px"></br>Projetos</p>
 								</div>
 							</div>
 						</div>
@@ -93,8 +93,8 @@ if( $back_to_top_class == 'hide' ){
 						<div class="mcb-wrap-inner">
 							<div class="column mcb-column one column_column  column-margin-">
 								<div class="column_attr clearfix" style="">
-									<p style="font-size:48px; color:#fff;">Quer saber mais?</p>
-									<p style="font-size:24px; color:#fff;">Fique por dentro das últimas notícias da Union.</p>
+									<p style="color: #ffffff; font-size:48px; line-height:44px">Quer saber mais?</p>
+									<p style="color: #ffffff; font-size:24px; line-height:26px">Fique por dentro das últimas novidades da Union.</p>
 								</div>
 							</div>
 						</div>
