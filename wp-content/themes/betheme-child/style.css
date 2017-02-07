@@ -106,6 +106,8 @@ Version: 		1.6.1
 .view-all {
     margin: 0px !important;
     padding: 12px 0px 10px !important;
+    font-size: 18px !important;
+
 }
 
 .button-stroke a:hover.button.button_stroke_custom:not(.action_button) {
@@ -206,7 +208,13 @@ a.button.download-button.button_size_1.button_js {
 #Footer .widget_nav_menu ul {
 	color: #585858;
 }
-
+.footer_copy{background: #e7e8e8;}
+.footer_copy .column{
+	margin-bottom: 20px;
+	padding-top: 30px;
+	min-height: 33px;
+}
+.logo-rodape{text-align: center;}
 .widget_nav_menu ul {
 	background: transparent !important;
 	padding: 0px 0px 0px 15px;
@@ -236,6 +244,11 @@ a.button.download-button.button_size_1.button_js {
 	line-height: 10px;
 }
 
+.widget_product_categories ul > li:after {
+	width: 100% !important;
+	left: 0px !important;
+}
+
 /* Product Page */
 
 .shop-filters {
@@ -258,7 +271,7 @@ a.button.download-button.button_size_1.button_js {
 	display: inline-block;
 	color: #585858;
 	font-size: 19px;
-    border-bottom: 4px solid #585858;
+    border-bottom: 3px solid #585858;
     padding-bottom: 9px;	
 }
 
@@ -286,6 +299,7 @@ a.button.download-button.button_size_1.button_js {
 .table-form td p {
 	margin: 0px;
 }
+.table-form select{border-radius: 7px;}
 
 .table-form label {
     text-align: left;
@@ -317,12 +331,18 @@ a.button.download-button.button_size_1.button_js {
     border-radius: 7px;
 }
 
+
 /* Shop Page */
 
 .shop-filters {
 	background-image: none !important;
 }
 
+.valignmiddle{
+	vertical-align: middle;
+	margin-left: 15px;
+	margin-right: 15px;
+}
 @media only screen and (min-width: 1240px) {
 	.section_wrapper, .container {
 		max-width: 1220px !important;
@@ -334,4 +354,42 @@ a.button.download-button.button_size_1.button_js {
 		font-size: 40px;
 		line-height: 40px;
 	}
+	.rdp-services .column_attr {
+		text-align: center !important;
+	}
+	a#logo img {margin-left: 20px !important;}
+}
+
+
+/* hector */
+
+/* produtos */
+.product-categories {
+font-size: 15px;
+}
+
+.product_list_widget .wp-post-image {
+	display: none;
+}
+
+.product-title {
+	font-weight: 300;
+}
+
+.widget-area::before {
+	background: #F4F4F4 !important;
+}
+
+/* blog */
+.post-header .title_wrapper h1 {
+	color: #ff0000;
+	font-size: 30px;
+}
+
+.photo .post-desc-wrapper {
+	text-align: left;
+}
+
+.post-desc {
+    padding: 35px 0 50px 20px;
 }

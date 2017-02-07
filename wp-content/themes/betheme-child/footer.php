@@ -23,69 +23,17 @@ if( $back_to_top_class == 'hide' ){
 ?>
 	
 		<?php if( is_tax( 'product_cat' ) || is_post_type_archive( 'product' ) )  : ?>
+<div class="section mcb-section    bg-cover" id="rdp-services" style="padding-top:100px; padding-bottom:80px; background-color:" data-parallax="3d"><img class="mfn-parallax" src="<?php echo site_url(); ?>/wp-content/uploads/2016/08/bg-services.jpg" alt="" style="width: 1903px; height: 1268.99px; transform: translate3d(0px, -52px, 0px);"><div class="section_wrapper mcb-section-inner"><div class="wrap mcb-wrap one  valign-middle clearfix" style=""><div class="mcb-wrap-inner"><div class="column mcb-column one-sixth column_placeholder"><div class="placeholder">&nbsp;</div></div><div class="column mcb-column two-third column_column  column-margin-50px"><div class="column_attr clearfix align_center" style=""><h2 style="color: #fff;">Portifólio de Serviços.</h2></div></div></div></div><div class="wrap mcb-wrap one-third  valign-middle clearfix" style="padding:0 0 50px 0"><div class="mcb-wrap-inner"><div class="column mcb-column one-third column_image "><div class="animate zoomIn" data-anim-type="zoomIn"><div class="image_frame image_item no_link scale-with-grid aligncenter no_border"><div class="image_wrapper"><img class="scale-with-grid" src="<?php echo site_url(); ?>/wp-content/uploads/2016/08/locacao-icon.png" alt="locacao-icon" width="128" height="121"></div></div>
+	</div>
+	</div><div class="column mcb-column two-third column_column  column-margin-"><div class="column_attr clearfix align_left" style=""><p style="color: #fff !Important; margin-bottom:10px; font-weight: 300; font-size:30px;"><br> Locação</p>
+	</div></div></div></div><div class="wrap mcb-wrap one-third  valign-middle clearfix" style="padding:0 0 50px 0"><div class="mcb-wrap-inner"><div class="column mcb-column one-third column_image "><div class="animate zoomIn" data-anim-type="zoomIn"><div class="image_frame image_item no_link scale-with-grid aligncenter no_border"><div class="image_wrapper"><img class="scale-with-grid" src="<?php echo site_url(); ?>/wp-content/uploads/2016/08/manutencao-icon.png" alt="manutencao-icon" width="128" height="121"></div></div>
+	</div>
+	</div><div class="column mcb-column two-third column_column  column-margin-"><div class="column_attr clearfix align_left" style=""><p style="color: #fff !Important; margin-bottom: 10px; font-weight: 300; font-size:30px; margin-left: 15px;"><br> Manutenção</p></div></div></div></div><div class="wrap mcb-wrap one-third  valign-middle clearfix" style=""><div class="mcb-wrap-inner"><div class="column mcb-column one-third column_image "><div class="animate zoomIn" data-anim-type="zoomIn"><div class="image_frame image_item no_link scale-with-grid aligncenter no_border"><div class="image_wrapper"><img class="scale-with-grid" src="<?php echo site_url(); ?>/wp-content/uploads/2016/08/projetos-icon.png" alt="projetos-icon" width="128" height="121"></div></div>
+	</div>
+	</div><div class="column mcb-column two-third column_column  column-margin-"><div class="column_attr clearfix align_left" style=" padding:0 0 50px 0;"><p style="color: #fff !Important; margin-bottom: 10px; font-weight: 300; font-size:30px; margin-left: 15px;"><br> Projetos</p>
+	</div></div></div></div></div></div>	
 
-			<div class="section mcb-section    bg-cover" style="margin-top:100px; padding-top:100px; padding-bottom:80px; background-color:" data-parallax="3d"><img class="mfn-parallax" src="<?php echo site_url(); ?>/wp-content/uploads/2016/08/bg-services.jpg" alt="" style="width: 1270px; height: 846.884px; transform: translate3d(0px, -59px, 0px);">
-				<div class="section_wrapper mcb-section-inner">
-					<div class="wrap mcb-wrap one  valign-middle clearfix" style="">
-						<div class="mcb-wrap-inner">
-							<div class="column mcb-column one-sixth column_placeholder">
-								<div class="placeholder">&nbsp;</div>
-							</div>
-							<div class="column mcb-column two-third column_column  column-margin-50px">
-								<div class="column_attr clearfix align_center" style="">
-									<h2 style="color: #fff;">Portifólio de Serviços.</h2></div>
-							</div>
-						</div>
-					</div>
-					<div class="wrap mcb-wrap one-third  valign-middle clearfix" style="">
-						<div class="mcb-wrap-inner">
-							<div class="column mcb-column one-third column_image ">
-								<div class="animate zoomIn" data-anim-type="zoomIn">
-									<div class="image_frame image_item no_link scale-with-grid aligncenter no_border">
-										<div class="image_wrapper"><img class="scale-with-grid" src="<?php echo site_url(); ?>/wp-content/uploads/2016/08/locacao-icon.png" alt="locacao-icon" width="128" height="121"></div>
-									</div>
-								</div>
-							</div>
-							<div class="column mcb-column two-third column_column  column-margin-">
-								<div class="column_attr clearfix align_center">
-									<p style="color: #fff !Important; margin-bottom: 10px; font-weight: 400; font-size:25px"></br>Locação</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="wrap mcb-wrap one-third  valign-middle clearfix" style="">
-						<div class="mcb-wrap-inner">
-							<div class="column mcb-column one-third column_image ">
-								<div class="animate zoomIn" data-anim-type="zoomIn">
-									<div class="image_frame image_item no_link scale-with-grid aligncenter no_border">
-										<div class="image_wrapper"><img class="scale-with-grid" src="<?php echo site_url(); ?>/wp-content/uploads/2016/08/manutencao-icon.png" alt="manutencao-icon" width="128" height="121"></div>
-									</div>
-								</div>
-							</div>
-							<div class="column mcb-column two-third column_column  column-margin-">
-								<div class="column_attr clearfix align_center">
-									<p style="color: #fff !Important; margin-bottom: 10px; font-weight: 400; font-size:25px"></br>Manutenção</p>
-							</div>
-						</div>
-					</div>
-					<div class="wrap mcb-wrap one-third  valign-top clearfix" style="">
-						<div class="mcb-wrap-inner">
-							<div class="column mcb-column one-third column_image ">
-								<div class="animate zoomIn" data-anim-type="zoomIn">
-									<div class="image_frame image_item no_link scale-with-grid aligncenter no_border">
-										<div class="image_wrapper"><img class="scale-with-grid" src="<?php echo site_url(); ?>/wp-content/uploads/2016/08/projetos-icon.png" alt="projetos-icon" width="128" height="121"></div>
-									</div>
-								</div>
-							</div>
-							<div class="column mcb-column two-third column_column  column-margin-">
-								<div class="column_attr clearfix align_center">
-									<p style="color: #fff !Important; margin-bottom: 10px; font-weight: 400; font-size:25px"></br>Projetos</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+			<?php endif; ?>
 			<!-- Newslleter		-->
 			<div class="section mcb-section   " style="padding-top:80px; padding-bottom:20px; background-color:#666">
 				<div class="section_wrapper mcb-section-inner">
@@ -110,8 +58,6 @@ if( $back_to_top_class == 'hide' ){
 					</div>
 				</div>
 			</div>
-
-			<?php endif; ?>
 			<?php do_action( 'mfn_hook_content_after' ); ?>
 				<!-- #Footer -->
 				<footer id="Footer" class="clearfix">
@@ -189,7 +135,7 @@ if( $back_to_top_class == 'hide' ){
 
 									<div class="footer_copy">
 										<div class="container">
-											<div class="column one">
+											<div class="column one-second">
 
 												<?php 
 						if( $back_to_top_position == 'copyright' ){
@@ -217,6 +163,7 @@ if( $back_to_top_class == 'hide' ){
 					?>
 
 											</div>
+											<div class="column one-second logo-rodape"><img src="<?php echo site_url(); ?>/wp-content/uploads/2017/02/logo-union-rodape.png"></div>
 										</div>
 									</div>
 
